@@ -32,17 +32,25 @@ The codes we are generating performs extractive summarization on a given text do
 
 **# ALGORITHM **
 Extractive Text Summarization using Cosine Similarity 
+
 **1. Preprocessing: **
 Tokenization: Break the input text into individual words and sentences using NLTK's sent_tokenize function. 
 Stopword Removal: Remove common stopwords (e.g., 'is', 'the', 'and') using NLTK's English stopwords list. 
+
 **2.  Sentence Similarity: **
 Define a function sentence_similarity to calculate the similarity between two sentences. For each sentence pair, create vectors representing the frequency of each word in the sentences. Compute the cosine similarity between the vectors to determine the similarity score. 
+
 **3. Similarity Matrix: **
 Build a similarity matrix where each cell represents the similarity score between two sentences. Iterate through all pairs of sentences and calculate their similarity scores using the sentence_similarity function. 
+
 **4. Sentence Ranking: **
 Calculate the total similarity score for each sentence by summing its similarity scores with all other sentences.Rank the sentences based on their total similarity scores. 
+
 **5. Summary Generation: **
 Select the top-N ranked sentences to form the summary. Combine the selected sentences to generate the final summary. 
+
+
+
 **# Theoretical Explanation **
 Cosine Similarity: Cosine similarity measures the cosine of the angle between two vectors in a multidimensional space. In this context, the vectors represent the frequency of words in sentences. Higher cosine similarity indicates greater similarity between sentences. 
 Extractive Summarization: Extractive summarization involves selecting a subset of sentences from the original text to construct the summary. The algorithm selects the most important sentences based on their similarity to other sentences in the text. 
