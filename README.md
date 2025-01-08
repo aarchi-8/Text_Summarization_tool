@@ -30,7 +30,7 @@ The codes we are generating performs extractive summarization on a given text do
  
 **Adjustable Parameters: **The top_n variable allows users to adjust the number of sentences in the final summary based on their preference. 
 
-**# ALGORITHM **
+****# ALGORITHM ****
 Extractive Text Summarization using Cosine Similarity 
 
 **1. Preprocessing: **
