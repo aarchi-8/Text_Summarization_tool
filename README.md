@@ -4,12 +4,15 @@ Python, Machine Learning, Deep Learning, HTML.
 Developed a Text Summarization Tool that condenses lengthy articles into concise summaries, featuring 
 a user-friendly interface for seamless interaction.
 
+
+#
 The process of summarizing a text involves cutting it down to a shorter version while maintaining the essential factual components and the content's significance. Academic research is highly motivated to automate text summarizing since it is a time-consuming and arduous activity that is often done by hand. This trend is growing in popularity.
 Text summarization has significant uses in a variety of NLP-related activities, including text classification, question answering, summarizing legal documents, news summary, and headline creation.Additionally, these systems can incorporate the creation of summaries as a transitional step that aids in document reduction.  
 
 
 
 The codes we are generating performs extractive summarization on a given text document using the cosine similarity between sentences. Here is a descriptive methodology for the code: 
+
 **File Reading:** The code starts by defining a function read_article that takes a file path as input and reads the content of the file. The content is then returned as a string. 
 
 **Sentence Tokenization:** The NLTK library is used to tokenize the article into sentences using nltk.sent_tokenize. Each sentence is treated as a unit for further analysis. 
@@ -52,7 +55,7 @@ Select the top-N ranked sentences to form the summary. Combine the selected sent
 
 
 
-**# Theoretical Explanation **
+# Theoretical Explanation
 Cosine Similarity: Cosine similarity measures the cosine of the angle between two vectors in a multidimensional space. In this context, the vectors represent the frequency of words in sentences. Higher cosine similarity indicates greater similarity between sentences. 
 Extractive Summarization: Extractive summarization involves selecting a subset of sentences from the original text to construct the summary. The algorithm selects the most important sentences based on their similarity to other sentences in the text. 
 Evaluation Metrics: To evaluate the quality of the summary, metrics such as ROUGE scores can be used. ROUGE measures the overlap between the generated summary and reference summaries provided by human annotators. 
