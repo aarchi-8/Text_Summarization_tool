@@ -8,7 +8,7 @@ The process of summarizing a text involves cutting it down to a shorter version 
 Text summarization has significant uses in a variety of NLP-related activities, including text classification, question answering, summarizing legal documents, news summary, and headline creation.Additionally, these systems can incorporate the creation of summaries as a transitional step that aids in document reduction.  
 
 
-**# Backgorund** 
+**# Backgorund**
 **Significance of Automatic Text Summarization (ATS):** The papers underline the growing importance of ATS in managing the vast amount of textual data available. They highlight its role in condensing lengthy texts while preserving essential information, which is crucial given the increasing volume of textual data in digital form. 
 **Techniques in ATS:** The papers discuss two main categories of text summarization techniques: extractive and abstractive. Extractive methods involve selecting important sentences or phrases from the original text, while abstractive methods generate summaries by rephrasing and synthesizing key information. Recent advancements in abstractive techniques, driven by neural networks like BERT, GPT, and BART, are noted. 
 **Challenges in ATS:** Challenges inherent in ATS are acknowledged, such as accurately identifying informative segments, summarizing long documents effectively, and evaluating summary quality. These challenges underscore the complexity of developing effective text summarization systems. 
